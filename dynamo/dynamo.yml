@@ -6,7 +6,7 @@ Parameters:
         Type: String
       
 Resources:
-  DynamoLab:
+  DynamoCloud:
     Type: AWS::DynamoDB::Table
     Properties:
       TableName: !Ref DynamoName
@@ -20,11 +20,11 @@ Resources:
       SSESpecification:
         SSEEnabled: true
 Outputs:
-  DynamoName:
+  DynamoCloud:
       Value: !Ref DynamoCloud
       Export:
         Name: DynamoCloud
-  DynamoNameArn:
+  DynamoCloudArn:
       Value: !GetAtt DynamoCloud.Arn
       Export:
         Name: DynamoCloudArn
