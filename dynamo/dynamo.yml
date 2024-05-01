@@ -21,10 +21,10 @@ Resources:
         SSEEnabled: true
 Outputs:
   DynamoName:
-      Value: !Ref DynamoDB
+      Value: !Ref DynamoCloud
       Export:
-        Name: DynamoDB
+        Name: DynamoCloud
   DynamoNameArn:
-      Value: !GetAtt DynamoDB.Arn
+      Value: !GetAtt DynamoCloud.Arn
       Export:
-        Name: DynamoDBArn
+        Name: DynamoCloudArn
