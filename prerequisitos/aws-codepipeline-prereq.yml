@@ -214,6 +214,7 @@ Resources:
                   - lambda:UpdateFunctionCode
                   - lambda:GetFunction
                   - lambda:TagResource
+                  - lambda:ListTags
                   - s3:*
                 Resource: "*"
 
