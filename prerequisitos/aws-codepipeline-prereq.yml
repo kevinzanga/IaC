@@ -211,10 +211,10 @@ Resources:
                   - cloudformation:*
                   - lambda:CreateFunction
                   - lambda:DeleteFunction
-                  #- lambda:UpdateFunctionCode
+                  - lambda:UpdateFunctionCode
                   - lambda:GetFunction
                   - lambda:TagResource
-                  #- lambda:ListTags
+                  - lambda:ListTags
                   - s3:*
                 Resource: "*"
 
