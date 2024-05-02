@@ -211,6 +211,7 @@ Resources:
                   - cloudformation:*
                   - lambda:CreateFunction
                   - lambda:DeleteFunction
+                  - lambda:UpdateFunctionCode
                   - lambda:GetFunction
                   - lambda:TagResource
                   - s3:*
