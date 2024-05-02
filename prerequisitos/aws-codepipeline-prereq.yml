@@ -212,6 +212,7 @@ Resources:
                   - lambda:CreateFunction
                   - lambda:DeleteFunction
                   - lambda:GetFunction
+                  - lambda:TagResource
                   - s3:*
                 Resource: "*"
 
